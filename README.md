@@ -1,0 +1,9 @@
+# VAD-Minmay-Speaks-English
+This project is a attempt to provide a tool that tries to replace the Minmay parts of the original Macross audio with the 2006 ADV Dub Minmay.
+
+Copyright Notice for Macross
+Macross is a registered trademark of its original creators and rights holders. The English dub of Macross was licensed by ADV for distribution in English-speaking territories from Harmony Gold it appears. The original Japanese series is owned by Studio Nue and other original production studios, with rights to the Macross managed by Harmony Gold. This material is used under the principles of fair use for reference and analysis purposes.
+
+The first upload contains only the manually timestamped and ripped Minmay lines from intervals of 6 episodes to not be picky or selectively choose the best data! I want to test a random sample for initial training and then some more for verification. They were ripped from a dual audio ADV dub/OG audio/Commentary archive from archive.org. The WAV files are all 2/6-channel 16-bit 44.1KHz files of AC3 source, except for the english rips of episode 4 which was 2-channel 96kbps LC-AAC source because I did that earlier and had a lower quality episode sitting around. The Japanese audio are all from the same dual audio file, althrough they only had 2 channels and likewise has a 25 year difference in age from the english.
+I didn't have the scripts that produced those files, but they are pretty straightforward, I simply pasted the timestamps into a LLM and asked it to generate a chain of ffmpeg commands that re-encodes the source into 16-bit s16 PCM and using -ss and -t to crop out the timestamp intervals. Episode 4 was copy pasted from GPT-5o mini, while the others are done directly locally by Qwen3-30B.
+And yes, I decided to store everything in a .tar.gz archive. It did not fit through, so I went back on that.
