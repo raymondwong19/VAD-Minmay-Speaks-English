@@ -1,0 +1,18 @@
+START TIME : 00:00
+
+The whole video is a commentary, so we only selected some parts.
+Plus there are no cues when they are going to speak.
+Also they are a fine test subject for being WAY longer than anime spoken lines used for training.
+
+IIJIMA TIMESTAMPS
+00m12s400 00m15s700
+1m38s650 1m50s043
+2m20s200 2m58s145
+3m19s466 4m11s200
+5m17s317 5m48s682
+6m11s900 6m45s300
+7m56s100 8m33s800
+9m48s388 10m19s285
+10m23s400 10m41s900
+
+END : 10m42s
