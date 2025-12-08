@@ -1,0 +1,27 @@
+[
+  {
+    "start": 0.352,
+    "end": 1.027,
+    "speaker_id": "SPEAKER_01"
+  },
+  {
+    "start": 25.023,
+    "end": 26.018,
+    "speaker_id": "SPEAKER_01"
+  },
+  {
+    "start": 38.978,
+    "end": 39.215,
+    "speaker_id": "SPEAKER_01"
+  },
+  {
+    "start": 40.43,
+    "end": 43.315,
+    "speaker_id": "SPEAKER_01"
+  },
+  {
+    "start": 45.003,
+    "end": 46.454,
+    "speaker_id": "SPEAKER_01"
+  }
+]
